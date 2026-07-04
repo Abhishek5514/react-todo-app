@@ -1,16 +1,133 @@
-# React + Vite
+# 🚀 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Todo Management Application** built with **React.js**. This project helps users efficiently manage daily tasks with a clean user interface, real-time updates, and local storage support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗 https://react-todo-app-one-sand.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a fully functional Todo Management application developed using **React.js**. It allows users to create, update, delete, search, and manage their daily tasks with a modern and responsive interface.
+
+The application stores all todos in the browser's **Local Storage**, ensuring that tasks remain available even after refreshing or reopening the browser.
+
+---
+
+## ✨ Features
+
+- ➕ Add New Todo
+- ✏️ Edit Existing Todo
+- 🗑️ Delete Todo
+- ✅ Mark Todo as Completed
+- 🔍 Search Todos
+- 🎯 Filter Todos (All / Completed / Pending)
+- 💾 Local Storage Persistence
+- 🔔 Toast Notifications
+- 📱 Responsive Design
+- 🎨 Modern Dark UI
+- ⚡ Keyboard Support (Press Enter to Add)
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Lucide React Icons
+- React Hot Toast
+
+---
+
+## 📂 Project Structure
+
+```text
+react-todo-app/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── assets/
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Abhishek5514/react-todo-app.git
+```
+
+Go to the project directory
+
+```bash
+cd react-todo-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+## 🎯 Future Enhancements
+
+- 📅 Due Date Support
+- 🚩 Priority Levels
+- 🎯 Categories
+- 🌙 Dark / Light Theme Toggle
+- 🔐 User Authentication
+- ☁️ Cloud Database Integration
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek kumar prajapati**
+
+- GitHub: https://github.com/Abhishek5514
+- Live Demo: https://react-todo-app-one-sand.vercel.app
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving this repository a ⭐ on GitHub.
+
+---
+
+### Made with ❤️ using React.js
